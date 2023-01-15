@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO DanBloomberg/leptonica
-    REF f4138265b390f1921b9891d6669674d3157887d8 # 1.82.0
-    SHA512 cd8c55454fc2cb4d23c2b3f01870e154766fa5a35c07b79d25c2d85dc2675dcb224d9be8a1cdcb7e9a0bd3c17e90141aa4084f67a311a1c327d7ac2439ba196a
+    REF 97b82b09ea2caeb203df4abeb1877eda661e6bfe # 1.83.0
+    SHA512 7ada83d02a3d294b55f00f01e6ffa5fdc2eeab9c30becbfd52e5d682971352f531137af94296c5d3135ef3102876c3c70d84ed146f7f310b859b6cf6d2c974f0
     HEAD_REF master
     PATCHES
         fix-CMakeDependency.patch
